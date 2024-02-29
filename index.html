@@ -9,12 +9,14 @@
     <meta name="keywords" content="html, css, javascript, jquery">
     <meta name="author" content="">
 
-    <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+    <!-- <link rel="stylesheet" href="css/vendor/icomoon/style.css">
     <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
     <link rel="stylesheet" href="css/vendor/animate.min.css">
-    <link rel="stylesheet" href="css/vendor/aos.css">
-    <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/vendor/aos.css"> -->
+    <!-- <link rel="stylesheet" href="css/vendor/bootstrap.min.css"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">    <!-- <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css"> -->
     
 
     <!-- Theme Style -->
@@ -35,8 +37,6 @@
       </div>
       <div class="site-mobile-inner"></div>
     </nav>
-
-
     <div class="unslate_co--site-wrap">
 
       <div class="unslate_co--site-inner">
@@ -54,18 +54,16 @@
         
           <div class="row align-items-center justify-content-between text-left">
             <div class="col-md-5 text-right">
-              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <!-- <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li> -->
-                <li><a href="#about-section" class="nav-link">About</a></li>
-                <!-- <li><a href="#services-section" class="nav-link">Services</a></li> -->
-              </ul>
             </div>
             <div class="site-logo pos-absolute">
               <a href="index.html" class="unslate_co--site-logo">P<span>.</span>Pranav</a>
             </div>
             <div class="col-md-5 text-right text-lg-left">
               <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <!-- <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li> -->
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                <li><a href="#experience-section" class="nav-link">Experience</a></li>
                 <li><a href="#skills-section" class="nav-link">Skills</a></li>
                 <!-- <li><a href="#testimonial-section" class="nav-link">Testimonial</a></li>
                 <li><a href="#journal-section" class="nav-link">Journal</a></li> -->
@@ -152,7 +150,54 @@
         </div>
       </div>
 
-      <div class="unslate_co--section section-counter" id="skills-section">
+      <div class="unslate_co--section " id="experience-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Work Experience</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+
+          <!-- Section: Timeline -->
+            <ul class="timeline-with-icons">
+              <li class="timeline-item mb-5">
+                <span class="timeline-icon">
+                  <img style="height: 25px; width: 25px;" src="images/svg/006-goal.svg">
+                </span>
+
+                <h5 class="fw-bold">Security Engineer, Securitybulls Intelligence India Pvt. Ltd.</h5>
+                <p class="text-muted mb-2 fw-bold">July 2021 - January 2024</p>
+                <p class="text-muted">
+                  <ul>
+                    <li>Supervised the comprehensive security assessment project, leading a team of five, through every phase from thorough planning and execution to detailed reporting and rigorous patch validation.</li>
+                    <li>Discovered and leveraged vulnerabilities in over 95+ assets from web/mobile applications and APIs, meticulously documenting findings and providing comprehensive remediation recommendations.</li>
+                    <li>Conducted remote/on-site network security assessments, including wireless pentest exercise, evaluating and identifying vulnerabilities within the local network, and the security of wireless network.</li>
+                    <li>Performed source code reviews to identify security flaws and vulnerabilities in applications, providing actionable recommendations for secure coding practices and improving overall code integrity.</li>
+                    <li>Coordinated with cross-functional teams, including IT, development, and business stakeholders, to identify and address security issues and implement effective security controls, using concise reports.</li>
+                    <li>Verified patches applied to identified vulnerabilities, such as Cross-Site Scripting (XSS), SQL Injection (SQLi), Cross-Site Request Forgery (CSRF), Server-Side Request Forgery (SSRF) ensuring effective implementation and identifying and addressing any shortcomings in the patching process.</li>
+                  </ul> 
+                </p>
+              </li>
+
+              <li class="timeline-item mb-5">
+                <span class="timeline-icon">
+                  <img style="height: 25px; width: 25px;" src="images/svg/006-goal.svg">
+                </span>
+                <h5 class="fw-bold">Security Analyst (Intern), Securitybulls Intelligence India Pvt. Ltd.</h5>
+                <p class="text-muted mb-2 fw-bold">Sept 2020 - June 2021</p>
+                <p class="text-muted">
+                  <ul>
+                    <li>Conducted routine vulnerability scans on web and mobile applications following OWASP penetration testing guidelines to identify potential security weaknesses and assess the overall security posture.</li>
+                    <li>Compiled comprehensive reports detailing the findings of vulnerability scans, outlining the identified vulnerabilities, their severity, and providing clear and actionable recommendations for remediation.</li>
+                    <li>Gained hands-on experience in utilizing industry-standard security tools for vulnerability scanning and analysis, enhancing proficiency in tools such as Nessus, BurpSuite, or similar scanning tools.</li>
+                  </ul> 
+                </p>
+              </li> 
+            </ul>
+        </div>
+      </div>
+      <!-- Section: Timeline -->
+      <div class="unslate_co--section " id="skills-section">
         <div class="container">
           <div class="section-heading-wrap text-center mb-5">
             <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Skills</span></h2>
@@ -296,16 +341,22 @@
             <div class="col-md-4">
               <div class="contact-info-v1">
                 <div class="gsap-reveal d-block">
-                  <span class="d-block contact-info-label">Email</span>
+                  <span class="d-block contact-info-label"><i class="bi bi-envelope-at"></i> Email</span>
                   <a href="mailto:piyush.prnv426@gmail.com" class="contact-info-val">Piyush.prnv426@gmail.com</a>
                 </div>
                 <div class="gsap-reveal d-block">
-                  <span class="d-block contact-info-label">Phone</span>
+                  <span class="d-block contact-info-label"><i class="bi bi-phone"></i> Phone</span>
                   <a href="tel:+917543072551" class="contact-info-val">+91 754320 72551</a>
                 </div>
                 <div class="gsap-reveal d-block">
-                  <span class="d-block contact-info-label">Address</span>
-                  <address class="contact-info-val">Begusarai(Bihar) <br> India, 851101</address>
+                  <span class="d-block contact-info-label"><i class="bi bi-geo-alt"></i> Address</span>
+                  <address class="contact-info-val">Begusarai (Bihar) <br> India, 851101</address>
+                </div>
+                <div class="social-links">
+                  <a href="https://www.linkedin.com/in/dr0verrid3"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://github.com/dr0verrid3"><i class="bi bi-github"></i></a>
+                  <a href="https://x.com/Dr0verrid3"><i class="bi bi-twitter"></i></a>
+                  <a href="https://instagram.com/b0urn3_"><i class="bi bi-instagram"></i></a>
                 </div>
               </div>
             </div>
@@ -319,25 +370,13 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-">
-              
-              <div class="footer-site-logo"><a href="#">P<span>.</span>Pranav</a></div>
-
-              <ul class="footer-site-social">
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Dribbble</a></li>
-                <li><a href="#">Behance</a></li>
-              </ul>
-
               <p class="site-copyright">
                 
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 Copyright &copy;
                 <script>
                   document.write(new Date().getFullYear());
-                </script> All rights reserved | This template is made with <i class="icon-heart"
-                  aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                </script> All rights reserved | This template is made with <i class="bi bi-suit-heart-fill"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               
               </p>
@@ -350,7 +389,6 @@
       
     </div>
 
-    
     <!-- Loader -->
     <div id="unslate_co--overlayer"></div>
     <div class="site-loader-wrap">
